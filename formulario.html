@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <div id="agrupar">
+
+        <header id="cabecera">
+            <h1>TODO SOBRE BARBIE</h1>
+        </header>
+
+        <hr>
+
+        <nav id="menu">
+            <ul class="ulmenu">
+                <li class="limenu"><a class="amenu" href="index.html">Principal</a></li>
+                <li class="limenu"><a class="amenu" href="ayuda.html">Ayuda</a></li>
+                <li class="limenu"><a class="amenu" href="formulario.html">Contacto</a></li>
+                <li class="limenu"><a class="amenu" href="galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
+
+        <legend>Formulario de Contacto</legend>
+
+        <div style="text-align: center;">
+        <form action="procesar.html" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="apeMaterno">Apellido Materno:</label>
+            <input type="text" id="apeMaterno" name="apellidoM">
+            <br>
+            <label for="apePaterno">Apellido Paterno:</label>
+            <input type="text" id="apePaterno" name="apellidoP">
+            <br>
+            <label for="rfc">RFC:</label>
+            <input type="text" id="rfc" name="rfc">
+            <br>
+            <label for="codArea">Codigo de Area:</label>
+            <input type="number" id="codArea" name="codArea">
+            <br>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option hidden selected>Escoge Estado</option>
+                <option value="jalisco">Jalisco</option>
+                <option value="michuacan">Michuacan</option>
+                <option value="yucatan">Yucatan</option>
+            </select>
+            <br>
+            <label for="del">Delegacion/Municipio:</label>
+            <select name="delegmunicipio" id="del">
+                <option hidden selected>Escoge Delegacion/Municipio</option>
+                <option value="jalisco">Lerma</option>
+                <option value="michuacan">Morelos</option>
+                <option value="yucatan">Texcoco</option>
+            </select>
+            <br>
+            <label for="colonia">Colonia:</label>
+            <select name="colonia" id="colonia">
+                <option hidden selected>Escoge la colonia</option>
+                <option value="jalisco">Juares</option>
+                <option value="michuacan">Roma</option>
+                <option value="yucatan">Polanco</option>
+            </select>
+            <br>
+            <label for="agregcol">Agregar colonia</label>
+            <input type="checkbox" name="agregcol" value="agregarcol">
+            <br>
+            <label for="sexo">Sexo:</label>
+            <span>Mujer</span>
+            <input type="radio" name="genero" value="mujer">
+            <span>Hombre</span>
+            <input type="radio" name="genero" value="hombre">
+            <br>
+            <label for="fechaNac">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNac" name="fechaNacimiento" min="1970-01-01" max="2022-12-31">
+            <br>
+            <label for="email">Correo Electronico:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <input class="enviar" type="submit" value="ENVIAR">
+        </form>
+    </div>
+        <br>
+        <footer id="pie">Derechos Reservados 2010-2011</footer>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,321 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    margin-left: 10px;
+    color: bisque;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    -webkit-text-stroke: 1px black;
+}
+
+.h2CV {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.h2Ayuda {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: papayawhip;
+    color: palevioletred;
+    border-radius: 150px;
+}
+
+h3 {
+    background-color: palevioletred;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.h3CV {
+    background-color: palevioletred;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.h3Ayuda {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline black;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: pink;
+    -webkit-text-stroke: 1px black;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption,
+hgroup {
+    display: block;
+}
+
+body {
+    text-align: center;
+    background-color: pink;
+    background-image: url(https://www.teahub.io/photos/full/235-2352006_barbie-barbie-fondos-de-pantalla.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#agrupar {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#cabecera {
+    background-color: palevioletred;
+    border: 1px solid papayawhip;
+    padding: 20px;
+}
+
+#menu {
+    background-color: palevioletred;
+    padding: 5px 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: pink;
+    margin: 3px;
+}
+
+#menu li:hover {
+    background-color: rgb(225, 168, 233);
+}
+
+#seccion {
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+
+#columna {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background-color: palevioletred;
+}
+
+.primer {
+    color: white;
+    background-color: rgb(185, 185, 61);
+    text-decoration: none;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.segundo {
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.tercero {
+    color: white;
+    background-color: rgb(132, 100, 219);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.list2021 {
+    padding: 0px;
+    list-style: none;
+}
+
+.listJulio {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+
+figcaption {
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+}
+
+.cvAlumno {
+    width: 100%;
+    border: 1px solid #000000;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #f4a1b5;
+    margin-bottom: 30px;
+
+}
+
+.articuloCV {
+    text-align: center;
+}
+
+.pAyuda {
+    font-size: 20px;
+    background-color: pink;
+}
+
+legend {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    color: aliceblue;
+    -webkit-text-stroke: 1px black;
+}
+
+form {
+    width: 400px;
+    background: palevioletred;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: 'Lucida Sans Unicode';
+    color: white;
+    
+}
+
+
+
+.divLabel{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #ec576b; 
+	border-color: #ec576b; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+
+.enviar {
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.imgCV {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.divSlider {
+    width: 800px;
+    margin: auto;
+    padding: 40px;
+}
+
+.divSlider ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.slider {
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background: white;
+}
+
+.slider li img {
+    width: 100%;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+.slider li:first-child {
+    opacity: 1;
+}
+
+.slider li:target {
+    opacity: 1;
+}
+
+.menu {
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    background-color: pink;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+}
